@@ -1,0 +1,8 @@
+<button class="btn btn-warning mt-5" [routerLink]="['/']" >Retour</button>
+<div class="bg-sombre text-center" *ngIf="!isLoading && joueur">
+  <h1>
+    Bienvenue sur la page de {{ joueur.nom }} - {{joueur.prenom}}
+  </h1>
+  <h3>{{joueur.poste}}</h3>
+  <img width="500px" src="{{joueur.image}}" alt="">
+</div>

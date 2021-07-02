@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://i1.wp.com/www.alsagarden.com/blog/wp-content/uploads/2014/08/Le-gazon-2.jpg?fit=800%2C600&ssl=1");
+}
+.bg-sombre{
+  background-color: rgba(73, 73, 180, 0.52);
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+}

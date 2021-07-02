@@ -10,11 +10,15 @@ import { AppComponent } from './app.component';
 import {AppRoutingModule} from "./app-routing.module";
 import { HomepageComponent } from './homepage/homepage.component';
 import {RouterModule} from "@angular/router";
+import { AddJoueurComponent } from './add-joueur/add-joueur.component';
+import { DetailJoueurComponent } from './detail-joueur/detail-joueur.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
+    AddJoueurComponent,
+    DetailJoueurComponent,
   ],
   imports: [
     BrowserModule,
@@ -24,7 +28,8 @@ import {RouterModule} from "@angular/router";
     CommonModule,
     BrowserAnimationsModule,
     ToastrModule.forRoot(),
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
 
   ],
   providers: [],
